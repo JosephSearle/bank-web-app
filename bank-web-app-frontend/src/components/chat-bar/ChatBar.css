@@ -1,0 +1,24 @@
+.chat-bar {
+    margin: 0 10px 0 10px;
+    background-color: #EDEDED;
+    border-radius: 50px;
+    height: 50px;
+}
+
+.chat-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chat-bar-input {
+    background-color: inherit;
+    border: none;
+    margin-left: 10px;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.chat-bar-input:focus {
+    outline: none;
+}

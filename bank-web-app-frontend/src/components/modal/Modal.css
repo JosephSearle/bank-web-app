@@ -1,0 +1,43 @@
+.modal {
+    background-color: white;
+    color: black;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin: 10px;
+}
+
+.modal-chat-window {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 10px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.modal-chat-window::-webkit-scrollbar {
+    display: none;
+}
+
+.modal-chat-bar {
+    margin-bottom: 10px;
+}
+
+.chat-bubble-bot {
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+.chat-bubble-user {
+    align-self: flex-start;
+    margin-bottom: 10px;
+}

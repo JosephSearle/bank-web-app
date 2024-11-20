@@ -1,0 +1,21 @@
+.chat-bubble-bot {
+    background-color: #DA0303;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: left;
+    width: 300px;
+}
+
+.chat-bubble-user {
+    background-color: #F45B5B;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: left;
+    width: 300px;
+}
+
+p {
+    font-family: 'roboto';
+    font-size: 15px;
+    color: white;
+}

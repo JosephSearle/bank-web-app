@@ -1,0 +1,28 @@
+.Home {
+    text-align: center;
+}
+
+.Home-Container {
+    background-color: #00071F;
+    background-image: url(../resources/background.webp); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+#Credit-Card {
+    margin-top: 100px;
+    width: 600px;
+    height: 400px;
+}
+
+p {
+    font-family: 'roboto';
+}

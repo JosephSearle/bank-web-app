@@ -1,0 +1,13 @@
+#Icon-Button {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 1000;
+}
+
+#Chat-Window {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 1000;
+}

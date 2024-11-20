@@ -1,0 +1,58 @@
+.Navbar {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.Navbar-Container {
+    background-color: white;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
+
+.Navbar-Container-Top {
+    display: inherit;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.Navbar-Container-Top-Buttons {
+    display:flex;
+    align-items: center;
+}
+
+.Navbar-Container-Bottom {
+    display: inherit;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.Navbar-Container-Bottom-Right-Buttons a {
+    margin-left: 15px;
+}
+
+.Navbar-Container-Bottom-Left-Buttons a {
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+a {
+    font-family: 'roboto';
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #AE0000;
+    cursor: pointer;
+}

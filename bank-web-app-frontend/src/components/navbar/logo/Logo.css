@@ -1,0 +1,26 @@
+.Logo {
+    text-align:left;
+    align-self: flex-start;
+}
+
+.Logo-Container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    width: 40px;
+    height: 64px;
+}
+
+.Logo-Text {
+    margin-left: 10px;
+}
+
+h1 {
+    font-family: 'roboto';
+    font-size: 38px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
