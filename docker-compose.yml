@@ -1,0 +1,6 @@
+services:
+  frontend:
+    build: ./bank-web-app-frontend
+    container_name: frontend_c
+    ports:
+      - '3000:3000'
