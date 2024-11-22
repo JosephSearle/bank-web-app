@@ -10,6 +10,7 @@ The bank application tech stack is subject to change over time but currently it 
 |Node JS|18-alpine||
 |Postgresql|16-alpine|Store and persist crucial user data.|
 |Podman|5.2.5|Containerize and deploy services for application|
+|Java|21|REST API service|
 
 ## Getting Started
 ### Podman
