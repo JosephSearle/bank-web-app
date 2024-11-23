@@ -27,12 +27,12 @@ The bank application tech stack is subject to change over time but currently it 
     ```unix
     podman machine start
     ```
-### IBM MQ
-Now let's set up our  MQ Container.
-* If your machine is NOT a Silicon Mac, pull the MQ image from ICR:
-    ```unix
-    podman pull icr.io/ibm-messaging/mq:latest
+### Postgres DB
+* Create a .env file in your root directory and fill with the following.
+    ```env
+    POSTGRES_DB=postgres_db
+    POSTGRES_USER=postgres
+    POSTGRES_PASSWORD=p.postgres
+    POSTGRES_ROOT_PASSWORD=root
+    POSTGRES_PORT=5432
     ```
-    If you have a Silicon Mac, follow the steps [here](https://community.ibm.com/community/user/integration/blogs/richard-coppen/2023/06/30/ibm-mq-9330-container-image-now-available-for-appl) to create the image natively.
-    
-    Ensure the image name on your docker-compose.yml file matches the name on the image you pulled/built.
